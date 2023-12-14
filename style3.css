@@ -2221,6 +2221,6 @@ padding-top: 40px;
                     
                     }
                     .active, .btn:hover {
-                      background-color: #666;
+                      /* background-color: #666; */
                       color:#F62C72;}
             
