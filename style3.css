@@ -10,7 +10,7 @@ body {
 }
 
 .img1 {
-  width: 15%;
+  width: 17%;
   border: none !important;
   /* margin-left: 300px; */
   /* margin-right: 80px; */
@@ -56,13 +56,19 @@ body {
     }
 
   }
+  @media screen and (max-device-width:988px) and (max-width:300px) {
+    .img1 {
+      width: 30% !important;
+    }
+
+  }
   @media screen and (max-width:474px) and (min-width:300px) {
     .img1 {
       width: 30% !important;
     }}
-    @media screen and (max-width:1056px) and (min-width:300px) {
+    @media screen and (max-width:1056px) and (min-width:1069px) {
       .img1 {
-        /* width: 20% !important; */
+        width: 20% !important;
       }}
   @media screen and (max-device-width:850px) and (max-width:300px) {
     .img1 {
