@@ -18,7 +18,7 @@ body {
 
 @media screen and (min-width:814px) and (max-width:1200px) {
     .img1 {
-      width: 40% !important;
+      width: 20% !important;
     }
 
   }
@@ -40,12 +40,13 @@ body {
   .navbar-toggler-icon {
     width: 1em !important;
     display: flex;
+    margin-right: 40px;
   }
 
 }
   @media screen and (max-device-width:814px) and (max-width:300px) {
     .img1 {
-      width: 70%;
+      width: 30%;
     }
 
   }
@@ -55,7 +56,7 @@ body {
     }}
   @media screen and (max-device-width:850px) and (max-width:300px) {
     .img1 {
-      width: 70% !important;
+      width: 30% !important;
     }
 
   }
